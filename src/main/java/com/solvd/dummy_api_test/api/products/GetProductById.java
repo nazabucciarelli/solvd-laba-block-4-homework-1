@@ -13,8 +13,8 @@ public class GetProductById extends AbstractApiMethodV2 {
     public GetProductById() {
     }
 
-    public void setId(Long id){
-        replaceUrlPlaceholder("id",String.valueOf(id));
+    public void setId(Long id) {
+        replaceUrlPlaceholder("id", String.valueOf(id));
     }
 
 }

@@ -21,7 +21,7 @@ public class APIProductTest implements IAbstractTest {
 
     @Test
     @MethodOwner(owner = "nazareno")
-    public void postProductTest(){
+    public void postProductTest() {
         PostProduct postProduct = new PostProduct();
         postProduct.setProperties("api/products/product.properties");
         postProduct.callAPIExpectSuccess();
@@ -30,7 +30,7 @@ public class APIProductTest implements IAbstractTest {
 
     @Test
     @MethodOwner(owner = "nazareno")
-    public void deleteProductTest(){
+    public void deleteProductTest() {
         DeleteProductById deleteProductById = new DeleteProductById();
         deleteProductById.setId(90L);
         deleteProductById.callAPIExpectSuccess();
@@ -39,7 +39,7 @@ public class APIProductTest implements IAbstractTest {
 
     @Test
     @MethodOwner(owner = "nazareno")
-    public void putProductByIdTest(){
+    public void putProductByIdTest() {
         PutProductById putProductById = new PutProductById();
         putProductById.setId(2L);
         putProductById.setProperties("api/products/product.properties");

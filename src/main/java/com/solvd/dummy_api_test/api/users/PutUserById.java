@@ -7,16 +7,17 @@ import com.zebrunner.carina.api.annotation.SuccessfulHttpStatus;
 import com.zebrunner.carina.api.http.HttpMethodType;
 import com.zebrunner.carina.api.http.HttpResponseStatusType;
 
-@Endpoint(url = "${config.api_url}/users/${id}",methodType = HttpMethodType.PUT)
+@Endpoint(url = "${config.api_url}/users/${id}", methodType = HttpMethodType.PUT)
 @RequestTemplatePath(path = "api/users/_put/rq.json")
 @SuccessfulHttpStatus(status = HttpResponseStatusType.OK_200)
 public class PutUserById extends AbstractApiMethodV2 {
 
-    public PutUserById(){
+    public PutUserById() {
 
     }
 
-    public void setId(Long id){
-        replaceUrlPlaceholder("id",String.valueOf(id));
+    public void setId(Long id) {
+        replaceUrlPlaceholder("id", String.valueOf(id));
     }
+
 }

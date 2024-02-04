@@ -1,0 +1,64 @@
+[2024-02-04 09:58:20] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-04 09:58:20] [1] [INFO] TEST [dummy-api-testing - putCartByIdTest] STARTED at [18:58:20 2024-02-04]
+[2024-02-04 09:58:21] [1] [INFO] Base properties loaded: api/carts/cart.properties
+[2024-02-04 09:58:22] [1] [INFO] Request method:	PUT
+Request URI:	https://dummyjson.com/carts/10
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "products": [
+        {
+            "id": "89",
+            "quantity": "429"
+        }
+    ]
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Sun, 04 Feb 2024 21:58:22 GMT
+x-ratelimit-reset: 1707083909
+content-type: application/json; charset=utf-8
+content-length: 323
+etag: W/"143-uSv78jb8ylekHHhqP8oNEPy+WUw"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 10,
+    "products": [
+        {
+            "id": 89,
+            "title": "Qualcomm original Car Charger",
+            "price": 40,
+            "quantity": 429,
+            "total": 17160,
+            "discountPercentage": 17.53,
+            "discountedPrice": 14152,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/89/thumbnail.jpg"
+        }
+    ],
+    "total": 17160,
+    "discountedTotal": 14152,
+    "userId": 13,
+    "totalProducts": 1,
+    "totalQuantity": 429
+}
+
+[2024-02-04 09:58:22] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-02-04 09:58:22] [1] [INFO] Validation against Json schema successfully passed
+[2024-02-04 09:58:22] [1] [INFO] TEST [dummy-api-testing - putCartByIdTest] PASSED at [18:58:22 2024-02-04]

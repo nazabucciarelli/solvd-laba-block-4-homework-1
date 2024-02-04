@@ -12,7 +12,7 @@ public class APIUserTest implements IAbstractTest {
 
     @Test
     @MethodOwner(owner = "nazareno")
-    public void getAllUserTest(){
+    public void getAllUserTest() {
         GetAllUser getAllUser = new GetAllUser();
         getAllUser.callAPIExpectSuccess();
         getAllUser.validateResponseAgainstSchema("api/users/_get/rs.schema");
@@ -20,7 +20,7 @@ public class APIUserTest implements IAbstractTest {
 
     @Test
     @MethodOwner(owner = "nazareno")
-    public void postUserTest(){
+    public void postUserTest() {
         PostUser postUser = new PostUser();
         postUser.setProperties("api/users/user.properties");
         postUser.callAPIExpectSuccess();
@@ -29,7 +29,7 @@ public class APIUserTest implements IAbstractTest {
 
     @Test
     @MethodOwner(owner = "nazareno")
-    public void putUserTest(){
+    public void putUserTest() {
         PutUserById putUserById = new PutUserById();
         putUserById.setId(10L);
         putUserById.setProperties("api/users/user.properties");
@@ -39,7 +39,7 @@ public class APIUserTest implements IAbstractTest {
 
     @Test
     @MethodOwner(owner = "nazareno")
-    public void deleteUserTest(){
+    public void deleteUserTest() {
         DeleteUserById deleteUserById = new DeleteUserById();
         deleteUserById.setId(5L);
         deleteUserById.callAPIExpectSuccess();

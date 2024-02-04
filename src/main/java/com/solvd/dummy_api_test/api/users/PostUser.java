@@ -7,10 +7,11 @@ import com.zebrunner.carina.api.annotation.SuccessfulHttpStatus;
 import com.zebrunner.carina.api.http.HttpMethodType;
 import com.zebrunner.carina.api.http.HttpResponseStatusType;
 
-@Endpoint(url = "${config.api_url}/users/add",methodType = HttpMethodType.POST)
+@Endpoint(url = "${config.api_url}/users/add", methodType = HttpMethodType.POST)
 @SuccessfulHttpStatus(status = HttpResponseStatusType.OK_200)
 @RequestTemplatePath(path = "api/users/_post/rq.json")
 public class PostUser extends AbstractApiMethodV2 {
-    public PostUser(){
+    public PostUser() {
     }
+
 }

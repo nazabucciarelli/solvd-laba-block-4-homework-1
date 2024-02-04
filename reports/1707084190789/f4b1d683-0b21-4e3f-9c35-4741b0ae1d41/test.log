@@ -1,0 +1,98 @@
+[2024-02-04 10:03:13] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-04 10:03:13] [1] [INFO] TEST [dummy-api-testing - deleteCartByIdTest] STARTED at [19:03:13 2024-02-04]
+[2024-02-04 10:03:15] [1] [INFO] Request method:	DELETE
+Request URI:	https://dummyjson.com/carts/3
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Sun, 04 Feb 2024 22:03:15 GMT
+x-ratelimit-reset: 1707084199
+content-type: application/json; charset=utf-8
+etag: W/"48f-ZU7F4fyq6iS62Ba6C73BMIcr1yY"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "id": 3,
+    "products": [
+        {
+            "id": 37,
+            "title": "ank Tops for Womens/Girls",
+            "price": 50,
+            "quantity": 2,
+            "total": 100,
+            "discountPercentage": 12.05,
+            "discountedPrice": 88,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/37/thumbnail.jpg"
+        },
+        {
+            "id": 80,
+            "title": "Chain Pin Tassel Earrings",
+            "price": 45,
+            "quantity": 3,
+            "total": 135,
+            "discountPercentage": 17.75,
+            "discountedPrice": 111,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/80/thumbnail.jpg"
+        },
+        {
+            "id": 68,
+            "title": "Stylish Luxury Digital Watch",
+            "price": 57,
+            "quantity": 3,
+            "total": 171,
+            "discountPercentage": 9.03,
+            "discountedPrice": 156,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/68/thumbnail.webp"
+        },
+        {
+            "id": 81,
+            "title": "Round Silver Frame Sun Glasses",
+            "price": 19,
+            "quantity": 1,
+            "total": 19,
+            "discountPercentage": 10.1,
+            "discountedPrice": 17,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/81/thumbnail.jpg"
+        },
+        {
+            "id": 90,
+            "title": "Cycle Bike Glow",
+            "price": 35,
+            "quantity": 1,
+            "total": 35,
+            "discountPercentage": 11.08,
+            "discountedPrice": 31,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/90/thumbnail.jpg"
+        }
+    ],
+    "total": 460,
+    "discountedTotal": 403,
+    "userId": 63,
+    "totalProducts": 5,
+    "totalQuantity": 10,
+    "isDeleted": true,
+    "deletedOn": "2024-02-04T22:03:15.105Z"
+}
+
+[2024-02-04 10:03:15] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-02-04 10:03:15] [1] [INFO] Validation against Json schema successfully passed
+[2024-02-04 10:03:15] [1] [INFO] TEST [dummy-api-testing - deleteCartByIdTest] PASSED at [19:03:15 2024-02-04]
