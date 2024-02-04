@@ -1,0 +1,57 @@
+[2024-02-03 07:00:51] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-03 07:00:51] [1] [INFO] TEST [dummy-api-testing - putProductByIdTest] STARTED at [16:00:51 2024-02-03]
+[2024-02-03 07:00:52] [1] [INFO] Base properties loaded: api/products/product.properties
+[2024-02-03 07:00:53] [1] [INFO] Request method:	PUT
+Request URI:	https://dummyjson.com/products/2
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "title": "tldjiolnkk",
+    "description": "ioophhehhphhgjhnlsrysttvskfgch"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Sat, 03 Feb 2024 19:00:53 GMT
+x-ratelimit-reset: 1706986858
+content-type: application/json; charset=utf-8
+content-length: 448
+etag: W/"1c0-Pv4TNtnucW9mtWl2pMBo2d1Shuw"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 2,
+    "title": "tldjiolnkk",
+    "price": 899,
+    "stock": 34,
+    "rating": 4.44,
+    "images": [
+        "https://cdn.dummyjson.com/product-images/2/1.jpg",
+        "https://cdn.dummyjson.com/product-images/2/2.jpg",
+        "https://cdn.dummyjson.com/product-images/2/3.jpg",
+        "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+    "description": "ioophhehhphhgjhnlsrysttvskfgch",
+    "brand": "Apple",
+    "category": "smartphones"
+}
+
+[2024-02-03 07:00:53] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-02-03 07:00:54] [1] [INFO] Validation against Json schema successfully passed
+[2024-02-03 07:00:54] [1] [INFO] TEST [dummy-api-testing - putProductByIdTest] PASSED at [16:00:54 2024-02-03]

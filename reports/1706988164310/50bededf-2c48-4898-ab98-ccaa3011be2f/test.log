@@ -1,0 +1,104 @@
+[2024-02-03 07:22:47] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-03 07:22:47] [1] [INFO] TEST [dummy-api-testing - deleteUserTest] STARTED at [16:22:47 2024-02-03]
+[2024-02-03 07:22:49] [1] [INFO] Request method:	DELETE
+Request URI:	https://dummyjson.com/users/5
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Sat, 03 Feb 2024 19:22:48 GMT
+x-ratelimit-reset: 1706988178
+content-type: application/json; charset=utf-8
+etag: W/"542-5srytJKEETFyVIR5cIDuC5gwec8"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "id": 5,
+    "firstName": "Mavis",
+    "lastName": "Schultz",
+    "maidenName": "Yundt",
+    "age": 38,
+    "gender": "male",
+    "email": "kmeus4@upenn.edu",
+    "phone": "+372 285 771 1911",
+    "username": "kmeus4",
+    "password": "aUTdmmmbH",
+    "birthDate": "1968-11-03",
+    "image": "https://robohash.org/Mavis.png?set=set4",
+    "bloodGroup": "O+",
+    "height": 188,
+    "weight": 106.3,
+    "eyeColor": "Brown",
+    "hair": {
+        "color": "Brown",
+        "type": "Curly"
+    },
+    "domain": "columbia.edu",
+    "ip": "103.72.86.183",
+    "address": {
+        "address": "2721 Lindsay Avenue",
+        "city": "Louisville",
+        "coordinates": {
+            "lat": 38.263793,
+            "lng": -85.700243
+        },
+        "postalCode": "40206",
+        "state": "KY"
+    },
+    "macAddress": "F8:04:9E:ED:C0:68",
+    "university": "Estonian University of Life Sciences",
+    "bank": {
+        "cardExpire": "01/24",
+        "cardNumber": "4917245076693618",
+        "cardType": "visa-electron",
+        "currency": "Euro",
+        "iban": "IT41 T114 5127 716J RGYB ZRUX DSJ"
+    },
+    "company": {
+        "address": {
+            "address": "8398 West Denton Lane",
+            "city": "Glendale",
+            "coordinates": {
+                "lat": 33.515353,
+                "lng": -112.240812
+            },
+            "postalCode": "85305",
+            "state": "AZ"
+        },
+        "department": "Support",
+        "name": "Adams Inc",
+        "title": "Web Developer I"
+    },
+    "ein": "18-7178563",
+    "ssn": "667-98-5357",
+    "userAgent": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.1 Safari/535.1",
+    "crypto": {
+        "coin": "Bitcoin",
+        "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+        "network": "Ethereum (ERC20)"
+    },
+    "isDeleted": true,
+    "deletedOn": "2024-02-03T19:22:48.883Z"
+}
+
+[2024-02-03 07:22:49] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-02-03 07:22:49] [1] [INFO] Validation against Json schema successfully passed
+[2024-02-03 07:22:49] [1] [INFO] TEST [dummy-api-testing - deleteUserTest] PASSED at [16:22:49 2024-02-03]

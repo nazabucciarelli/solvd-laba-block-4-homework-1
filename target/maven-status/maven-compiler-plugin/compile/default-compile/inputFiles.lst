@@ -1,0 +1,8 @@
+/home/nazareno/dev/test-automation-course/dummy-api-testing/src/main/java/com/solvd/dummy_api_test/api/users/PostUser.java
+/home/nazareno/dev/test-automation-course/dummy-api-testing/src/main/java/com/solvd/dummy_api_test/api/products/GetProductById.java
+/home/nazareno/dev/test-automation-course/dummy-api-testing/src/main/java/com/solvd/dummy_api_test/api/products/PostProduct.java
+/home/nazareno/dev/test-automation-course/dummy-api-testing/src/main/java/com/solvd/dummy_api_test/api/users/DeleteUserById.java
+/home/nazareno/dev/test-automation-course/dummy-api-testing/src/main/java/com/solvd/dummy_api_test/api/products/PutProductById.java
+/home/nazareno/dev/test-automation-course/dummy-api-testing/src/main/java/com/solvd/dummy_api_test/api/users/GetAllUser.java
+/home/nazareno/dev/test-automation-course/dummy-api-testing/src/main/java/com/solvd/dummy_api_test/api/users/PutUserById.java
+/home/nazareno/dev/test-automation-course/dummy-api-testing/src/main/java/com/solvd/dummy_api_test/api/products/DeleteProductById.java

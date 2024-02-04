@@ -1,0 +1,8 @@
+com/solvd/dummy_api_test/api/users/DeleteUserById.class
+com/solvd/dummy_api_test/api/products/DeleteProductById.class
+com/solvd/dummy_api_test/api/products/GetProductById.class
+com/solvd/dummy_api_test/api/products/PutProductById.class
+com/solvd/dummy_api_test/api/users/PostUser.class
+com/solvd/dummy_api_test/api/products/PostProduct.class
+com/solvd/dummy_api_test/api/users/PutUserById.class
+com/solvd/dummy_api_test/api/users/GetAllUser.class

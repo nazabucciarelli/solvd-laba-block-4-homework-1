@@ -1,0 +1,14 @@
+[2024-02-03 07:11:37] [1] [INFO] 
+=========== WebDriver configuration ===========
+-------------- Driver capabilities ------------
+===============================================
+
+[2024-02-03 07:11:38] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-03 07:11:40] [1] [INFO] [TestNG] Running:
+  /home/nazareno/.cache/JetBrains/IntelliJIdea2023.3/temp-testng-customsuite.xml
+
+[2024-02-03 07:11:40] [1] [INFO] Set thread-count=1
+[2024-02-03 07:11:40] [1] [INFO] Set data-provider-thread-count=1
+[2024-02-03 07:11:40] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2024-02-03 07:11:42] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2024-02-03 07:11:42] [1] [INFO] RESULT #1: TEST [dummy-api-testing - putUserTest] PASS [log=file:///home/nazareno/dev/test-automation-course/dummy-api-testing/./reports/1706987497989/d21930f5-bd5f-4197-9d55-a3accfd99d1b/test.log]
