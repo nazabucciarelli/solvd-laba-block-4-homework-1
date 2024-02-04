@@ -11,7 +11,6 @@ import com.zebrunner.carina.api.http.HttpResponseStatusType;
 @Endpoint(methodType = HttpMethodType.POST, url = "${config.api_url}/products/add")
 @SuccessfulHttpStatus(status = HttpResponseStatusType.OK_200)
 @RequestTemplatePath(path = "api/products/_post/rq.json")
-@ResponseTemplatePath(path = "api/products/_post/rs.json")
 public class PostProduct extends AbstractApiMethodV2 {
 
     public PostProduct() {
