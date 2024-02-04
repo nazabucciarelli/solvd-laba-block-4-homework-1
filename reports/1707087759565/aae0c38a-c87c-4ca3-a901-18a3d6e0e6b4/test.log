@@ -1,0 +1,150 @@
+[2024-02-04 11:02:42] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-04 11:02:42] [1] [INFO] TEST [dummy-api-testing - loginGetTokenTest] STARTED at [20:02:42 2024-02-04]
+[2024-02-04 11:02:43] [1] [INFO] Base properties loaded: api/auth/auth.properties
+[2024-02-04 11:02:44] [1] [INFO] Request method:	POST
+Request URI:	https://dummyjson.com/auth/login
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "username": "kminchelle",
+    "password": "0lelplR"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Sun, 04 Feb 2024 23:02:44 GMT
+x-ratelimit-reset: 1707087769
+content-type: application/json; charset=utf-8
+content-length: 544
+etag: W/"220-RoPMb/Z59gNuM7nTW/MEinDLkxM"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 15,
+    "username": "kminchelle",
+    "email": "kminchelle@qq.com",
+    "firstName": "Jeanne",
+    "lastName": "Halvorson",
+    "gender": "female",
+    "image": "https://robohash.org/Jeanne.png?set=set4",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsInVzZXJuYW1lIjoia21pbmNoZWxsZSIsImVtYWlsIjoia21pbmNoZWxsZUBxcS5jb20iLCJmaXJzdE5hbWUiOiJKZWFubmUiLCJsYXN0TmFtZSI6IkhhbHZvcnNvbiIsImdlbmRlciI6ImZlbWFsZSIsImltYWdlIjoiaHR0cHM6Ly9yb2JvaGFzaC5vcmcvSmVhbm5lLnBuZz9zZXQ9c2V0NCIsImlhdCI6MTcwNzA4Nzc2NCwiZXhwIjoxNzA3MDkxMzY0fQ.2hzC5w0EhrshOZFrj6w6kYwl-g2kzOxzTP-Xg55Jmi4"
+}
+
+[2024-02-04 11:02:44] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-02-04 11:02:44] [1] [INFO] Validation against Json schema successfully passed
+[2024-02-04 11:02:45] [1] [INFO] Request method:	GET
+Request URI:	https://dummyjson.com/auth/me
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsInVzZXJuYW1lIjoia21pbmNoZWxsZSIsImVtYWlsIjoia21pbmNoZWxsZUBxcS5jb20iLCJmaXJzdE5hbWUiOiJKZWFubmUiLCJsYXN0TmFtZSI6IkhhbHZvcnNvbiIsImdlbmRlciI6ImZlbWFsZSIsImltYWdlIjoiaHR0cHM6Ly9yb2JvaGFzaC5vcmcvSmVhbm5lLnBuZz9zZXQ9c2V0NCIsImlhdCI6MTcwNzA4Nzc2NCwiZXhwIjoxNzA3MDkxMzY0fQ.2hzC5w0EhrshOZFrj6w6kYwl-g2kzOxzTP-Xg55Jmi4
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 98
+date: Sun, 04 Feb 2024 23:02:45 GMT
+x-ratelimit-reset: 1707087769
+content-type: application/json; charset=utf-8
+etag: W/"511-ZkF8XzByjiWI0R/BGBK9w2WA4bw"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "id": 15,
+    "firstName": "Jeanne",
+    "lastName": "Halvorson",
+    "maidenName": "Cummerata",
+    "age": 26,
+    "gender": "female",
+    "email": "kminchelle@qq.com",
+    "phone": "+86 581 108 7855",
+    "username": "kminchelle",
+    "password": "0lelplR",
+    "birthDate": "1996-02-02",
+    "image": "https://robohash.org/Jeanne.png?set=set4",
+    "bloodGroup": "A+",
+    "height": 176,
+    "weight": 45.7,
+    "eyeColor": "Amber",
+    "hair": {
+        "color": "Blond",
+        "type": "Straight"
+    },
+    "domain": "google.co.uk",
+    "ip": "78.43.74.226",
+    "address": {
+        "address": "4 Old Colony Way",
+        "city": "Yarmouth",
+        "coordinates": {
+            "lat": 41.697168,
+            "lng": -70.189992
+        },
+        "postalCode": "02664",
+        "state": "MA"
+    },
+    "macAddress": "D9:DB:D9:5A:01:09",
+    "university": "Donghua University, Shanghai",
+    "bank": {
+        "cardExpire": "10/23",
+        "cardNumber": "3588859507772914",
+        "cardType": "jcb",
+        "currency": "Yuan Renminbi",
+        "iban": "FO12 1440 0396 8902 56"
+    },
+    "company": {
+        "address": {
+            "address": "22572 Toreador Drive",
+            "city": "Salinas",
+            "coordinates": {
+                "lat": 36.602449,
+                "lng": -121.699071
+            },
+            "postalCode": "93908",
+            "state": "CA"
+        },
+        "department": "Marketing",
+        "name": "Hahn-MacGyver",
+        "title": "Software Test Engineer IV"
+    },
+    "ein": "62-0561095",
+    "ssn": "855-43-8639",
+    "userAgent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.14 Safari/534.24",
+    "crypto": {
+        "coin": "Bitcoin",
+        "wallet": "0xb9fc1004bfe7702de522516cf34a5da41c4ef2b5",
+        "network": "Ethereum (ERC20)"
+    }
+}
+
+[2024-02-04 11:02:45] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-02-04 11:02:45] [1] [INFO] Validation against Json schema successfully passed
+[2024-02-04 11:02:45] [1] [INFO] TEST [dummy-api-testing - loginGetTokenTest] PASSED at [20:02:45 2024-02-04]

@@ -9,6 +9,7 @@ provides. These tests had to be done with response validations.
 
 To accomplish the requirements of the homework, I've initialized a Carina
 project and removed all the sample files excepting the config.properties file.
+
 For each entity's API testing I did the following: 
 
 In a package with a suitable name from src/main/java, I created classes that represent the APIs' methods.
@@ -43,15 +44,18 @@ framework.
 
 ## Set-Up
 
-To run this project you will need an updated version of Java.
+To run this project you will need at least the version 11 of Java.
 First, clone this repository in a folder of your PC.
 You have to put the following command in a terminal:
 
 ```bash
   git clone this-repo-url
 ```
-You will need an IDE to open the project folder and, finally, run the
-Main.java file to see the program output.
+You will need an IDE to open the project folder and also Maven, to download
+all the necessary dependencies. Once you are with the project opened, you
+can either run the whole tests' classes from the com.solvd.dummy_api_test.api 
+package by pressing the green play button at class level or each method with 
+the @Test annotation separately by pressing that button but at method level.
 
 ## Author
 

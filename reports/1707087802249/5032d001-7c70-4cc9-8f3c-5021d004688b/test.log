@@ -1,0 +1,104 @@
+[2024-02-04 11:03:28] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-04 11:03:28] [1] [INFO] TEST [dummy-api-testing - putUserTest] STARTED at [20:03:28 2024-02-04]
+[2024-02-04 11:03:28] [1] [INFO] Base properties loaded: api/users/user.properties
+[2024-02-04 11:03:29] [1] [INFO] Request method:	PUT
+Request URI:	https://dummyjson.com/users/10
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "firstName": "jlffmnjkhnmrowr",
+    "lastName": "fmgoknmpmqmroro",
+    "email": "dgmrlmhhelddcfd",
+    "phone": "341320954719",
+    "gender": "rtovqy"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Sun, 04 Feb 2024 23:03:29 GMT
+x-ratelimit-reset: 1707087819
+content-type: application/json; charset=utf-8
+content-length: 997
+etag: W/"3e5-o6A/15WYE2sDdbOCin13qfPqB8s"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 10,
+    "firstName": "jlffmnjkhnmrowr",
+    "lastName": "fmgoknmpmqmroro",
+    "maidenName": "Cummings",
+    "age": 37,
+    "gender": "rtovqy",
+    "email": "dgmrlmhhelddcfd",
+    "phone": "341320954719",
+    "username": "umcgourty9",
+    "password": "i0xzpX",
+    "birthDate": "1958-08-11",
+    "image": "https://robohash.org/Eleanora.png?set=set4",
+    "bloodGroup": "O+",
+    "height": 198,
+    "weight": 48,
+    "eyeColor": "Blue",
+    "hair": {
+        "color": "",
+        "type": ""
+    },
+    "domain": "alibaba.com",
+    "ip": "73.15.179.178",
+    "address": {
+        "address": "",
+        "city": "",
+        "coordinates": {
+            "lat": null,
+            "lng": null
+        },
+        "postalCode": "",
+        "state": ""
+    },
+    "macAddress": "BC:A9:D8:98:CB:0B",
+    "university": "Melaka City Polytechnic",
+    "bank": {
+        "cardExpire": "",
+        "cardNumber": "",
+        "cardType": "",
+        "currency": "",
+        "iban": ""
+    },
+    "company": {
+        "address": {
+            "address": "",
+            "city": "",
+            "coordinates": {
+                "lat": null,
+                "lng": null
+            },
+            "postalCode": "",
+            "state": ""
+        },
+        "department": "",
+        "name": "",
+        "title": ""
+    },
+    "ein": "21-5278484",
+    "ssn": "544-66-0745",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.6 Safari/537.11"
+}
+
+[2024-02-04 11:03:29] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-02-04 11:03:29] [1] [INFO] Validation against Json schema successfully passed
+[2024-02-04 11:03:29] [1] [INFO] TEST [dummy-api-testing - putUserTest] PASSED at [20:03:29 2024-02-04]

@@ -1,0 +1,56 @@
+[2024-02-04 11:03:10] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-04 11:03:10] [1] [INFO] TEST [dummy-api-testing - deleteProductTest] STARTED at [20:03:10 2024-02-04]
+[2024-02-04 11:03:13] [1] [INFO] Request method:	DELETE
+Request URI:	https://dummyjson.com/products/90
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Sun, 04 Feb 2024 23:03:12 GMT
+x-ratelimit-reset: 1707087799
+content-type: application/json; charset=utf-8
+content-length: 776
+etag: W/"308-ytZ8EQMpBmxvdm2916I9BbU/OSc"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 90,
+    "title": "Cycle Bike Glow",
+    "description": "Universal fitment and easy to install no special wires, can be easily installed and removed. Fits most standard tyre air stem valves of road, mountain bicycles, motocycles and cars.Bright led will turn on w",
+    "price": 35,
+    "discountPercentage": 11.08,
+    "rating": 4.1,
+    "stock": 63,
+    "brand": "Neon LED Light",
+    "category": "automotive",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/90/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/90/1.jpg",
+        "https://cdn.dummyjson.com/product-images/90/2.jpg",
+        "https://cdn.dummyjson.com/product-images/90/3.jpg",
+        "https://cdn.dummyjson.com/product-images/90/4.jpg",
+        "https://cdn.dummyjson.com/product-images/90/thumbnail.jpg"
+    ],
+    "isDeleted": true,
+    "deletedOn": "2024-02-04T23:03:12.748Z"
+}
+
+[2024-02-04 11:03:13] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-02-04 11:03:13] [1] [INFO] Validation against Json schema successfully passed
+[2024-02-04 11:03:13] [1] [INFO] TEST [dummy-api-testing - deleteProductTest] PASSED at [20:03:13 2024-02-04]

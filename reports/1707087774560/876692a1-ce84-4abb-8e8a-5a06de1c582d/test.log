@@ -1,0 +1,65 @@
+[2024-02-04 11:03:00] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-04 11:03:00] [1] [INFO] TEST [dummy-api-testing - postCartTest] STARTED at [20:03:00 2024-02-04]
+[2024-02-04 11:03:00] [1] [INFO] Base properties loaded: api/carts/cart.properties
+[2024-02-04 11:03:00] [1] [INFO] Request method:	POST
+Request URI:	https://dummyjson.com/carts/add
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "userId": "16",
+    "products": [
+        {
+            "id": "32",
+            "quantity": "001"
+        }
+    ]
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 97
+date: Sun, 04 Feb 2024 23:03:00 GMT
+x-ratelimit-reset: 1707087789
+content-type: application/json; charset=utf-8
+content-length: 297
+etag: W/"129-f9/GfwGB6TqJvRVy6wMxrZzxi/0"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 21,
+    "products": [
+        {
+            "id": 32,
+            "title": "Sofa for Coffe Cafe",
+            "price": 50,
+            "quantity": 1,
+            "total": 50,
+            "discountPercentage": 15.59,
+            "discountedPrice": 42,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/32/thumbnail.jpg"
+        }
+    ],
+    "total": 50,
+    "discountedTotal": 42,
+    "userId": 16,
+    "totalProducts": 1,
+    "totalQuantity": 1
+}
+
+[2024-02-04 11:03:00] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-02-04 11:03:01] [1] [INFO] Validation against Json schema successfully passed
+[2024-02-04 11:03:01] [1] [INFO] TEST [dummy-api-testing - postCartTest] PASSED at [20:03:01 2024-02-04]

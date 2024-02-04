@@ -1,0 +1,96 @@
+[2024-02-04 11:02:59] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-04 11:02:59] [1] [INFO] TEST [dummy-api-testing - getCartByIdTest] STARTED at [20:02:59 2024-02-04]
+[2024-02-04 11:03:00] [1] [INFO] Request method:	GET
+Request URI:	https://dummyjson.com/carts/2
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 98
+date: Sun, 04 Feb 2024 23:03:00 GMT
+x-ratelimit-reset: 1707087789
+content-type: application/json; charset=utf-8
+etag: W/"44a-vWCF7EOK9PGVZ09NLplnqADr/Fc"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "id": 2,
+    "products": [
+        {
+            "id": 96,
+            "title": "lighting ceiling kitchen",
+            "price": 30,
+            "quantity": 2,
+            "total": 60,
+            "discountPercentage": 14.89,
+            "discountedPrice": 51,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/96/thumbnail.jpg"
+        },
+        {
+            "id": 91,
+            "title": "Black Motorbike",
+            "price": 569,
+            "quantity": 3,
+            "total": 1707,
+            "discountPercentage": 13.63,
+            "discountedPrice": 1474,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/91/thumbnail.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Infinix INBOOK",
+            "price": 1099,
+            "quantity": 1,
+            "total": 1099,
+            "discountPercentage": 11.83,
+            "discountedPrice": 969,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg"
+        },
+        {
+            "id": 16,
+            "title": "Hyaluronic Acid Serum",
+            "price": 19,
+            "quantity": 1,
+            "total": 19,
+            "discountPercentage": 13.31,
+            "discountedPrice": 16,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg"
+        },
+        {
+            "id": 54,
+            "title": "Pubg Printed Graphic T-Shirt",
+            "price": 46,
+            "quantity": 3,
+            "total": 138,
+            "discountPercentage": 16.44,
+            "discountedPrice": 115,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/54/thumbnail.jpg"
+        }
+    ],
+    "total": 3023,
+    "discountedTotal": 2625,
+    "userId": 30,
+    "totalProducts": 5,
+    "totalQuantity": 10
+}
+
+[2024-02-04 11:03:00] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-02-04 11:03:00] [1] [INFO] Validation against Json schema successfully passed
+[2024-02-04 11:03:00] [1] [INFO] TEST [dummy-api-testing - getCartByIdTest] PASSED at [20:03:00 2024-02-04]

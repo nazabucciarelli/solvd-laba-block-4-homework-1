@@ -1,0 +1,64 @@
+[2024-02-04 11:03:01] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-04 11:03:01] [1] [INFO] TEST [dummy-api-testing - putCartByIdTest] STARTED at [20:03:01 2024-02-04]
+[2024-02-04 11:03:01] [1] [INFO] Base properties loaded: api/carts/cart.properties
+[2024-02-04 11:03:01] [1] [INFO] Request method:	PUT
+Request URI:	https://dummyjson.com/carts/10
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "products": [
+        {
+            "id": "12",
+            "quantity": "387"
+        }
+    ]
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 96
+date: Sun, 04 Feb 2024 23:03:01 GMT
+x-ratelimit-reset: 1707087789
+content-type: application/json; charset=utf-8
+content-length: 307
+etag: W/"133-XTHxwtIcKucwIZWSBLneJnNtytA"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 10,
+    "products": [
+        {
+            "id": 12,
+            "title": "Brown Perfume",
+            "price": 40,
+            "quantity": 387,
+            "total": 15480,
+            "discountPercentage": 15.66,
+            "discountedPrice": 13056,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg"
+        }
+    ],
+    "total": 15480,
+    "discountedTotal": 13056,
+    "userId": 13,
+    "totalProducts": 1,
+    "totalQuantity": 387
+}
+
+[2024-02-04 11:03:01] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-02-04 11:03:01] [1] [INFO] Validation against Json schema successfully passed
+[2024-02-04 11:03:01] [1] [INFO] TEST [dummy-api-testing - putCartByIdTest] PASSED at [20:03:01 2024-02-04]

@@ -1,0 +1,54 @@
+[2024-02-04 11:03:13] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-04 11:03:13] [1] [INFO] TEST [dummy-api-testing - getProductByIdTest] STARTED at [20:03:13 2024-02-04]
+[2024-02-04 11:03:13] [1] [INFO] Request method:	GET
+Request URI:	https://dummyjson.com/products/20
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 98
+date: Sun, 04 Feb 2024 23:03:13 GMT
+x-ratelimit-reset: 1707087799
+content-type: application/json; charset=utf-8
+content-length: 677
+etag: W/"2a5-UROxpj/+CoypGGBKWvALf3Gaqf8"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 20,
+    "title": "Freckle Treatment Cream- 15gm",
+    "description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
+    "price": 70,
+    "discountPercentage": 16.99,
+    "rating": 4.06,
+    "stock": 140,
+    "brand": "Fair & Clear",
+    "category": "skincare",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/20/1.jpg",
+        "https://cdn.dummyjson.com/product-images/20/2.jpg",
+        "https://cdn.dummyjson.com/product-images/20/3.jpg",
+        "https://cdn.dummyjson.com/product-images/20/4.jpg",
+        "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg"
+    ]
+}
+
+[2024-02-04 11:03:13] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-02-04 11:03:13] [1] [INFO] Validation against Json schema successfully passed
+[2024-02-04 11:03:14] [1] [INFO] TEST [dummy-api-testing - getProductByIdTest] PASSED at [20:03:14 2024-02-04]
